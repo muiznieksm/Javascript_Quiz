@@ -1,0 +1,200 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Javascript Quiz</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="intro py-3 bg-primary text-center">
+        <div class="container">
+          <h2 class="text-dark display-3 my-4">Javascript Quiz</h2>
+        </div>
+      </div>
+
+      <div class="result py-4 d-none bg-light text-center">
+        <div class="container lead">
+          <p>You got <span class="text-primary display-4 p-3">0%</span></p>
+        </div>
+      </div>
+
+      <!-- quiz section -->
+      <div class="quiz py-4 bg-dark">
+        <div class="container">
+          <h2 class="my-5 text-primary">On with the questions...</h2>
+
+          <form class="quiz-form text-primary">
+            <div class="my-5">
+              <p class="lead font-weight-normal">
+                1. What is the keyword used to declare a variable in JavaScript?
+              </p>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q1" value="A" checked />
+                <label class="form-check-label">let</label>
+              </div>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q1" value="B" />
+                <label class="form-check-label">function</label>
+              </div>
+            </div>
+
+            <div class="my-5">
+              <p class="lead font-weight-normal">
+                2. Which of the following is not a valid JavaScript data type?
+              </p>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q2" value="A" checked />
+                <label class="form-check-label">string</label>
+              </div>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q2" value="B" />
+                <label class="form-check-label"> float</label>
+              </div>
+            </div>
+
+            <div class="my-5">
+              <p class="lead font-weight-normal">
+                3. How do you define a function in JavaScript?
+              </p>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q3" value="A" checked />
+                <label class="form-check-label">function myFunction() {}</label>
+              </div>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q3" value="B" />
+                <label class="form-check-label"> def myFunction() {} </label>
+              </div>
+            </div>
+
+            <div class="my-5">
+              <p class="lead font-weight-normal">
+                4. Which method is used to add an element to the end of an array
+                in JavaScript?
+              </p>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q4" value="A" checked />
+                <label class="form-check-label">push()</label>
+              </div>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q4" value="B" />
+                <label class="form-check-label">pop()</label>
+              </div>
+            </div>
+
+            <div class="my-5">
+              <p class="lead font-weight-normal">
+                5. What does DOM stand for in the context of web development?
+              </p>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q5" value="A" checked />
+                <label class="form-check-label">Document Object Model</label>
+              </div>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q5" value="B" />
+                <label class="form-check-label">Data Object Model</label>
+              </div>
+            </div>
+
+            <div class="my-5">
+              <p class="lead font-weight-normal">
+                6. What is the purpose of the parseInt() function in JavaScript?
+              </p>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q6" value="A" checked />
+                <label class="form-check-label"
+                  >To convert a string to an integer</label
+                >
+              </div>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q6" value="B" />
+                <label class="form-check-label">
+                  To round a decimal number</label
+                >
+              </div>
+            </div>
+
+            <div class="my-5">
+              <p class="lead font-weight-normal">
+                7. Which operator is used for strict equality (both value and
+                data type)?
+              </p>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q7" value="A" checked />
+                <label class="form-check-label">==</label>
+              </div>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q7" value="B" />
+                <label class="form-check-label">===</label>
+              </div>
+            </div>
+
+            <div class="my-5">
+              <p class="lead font-weight-normal">
+                8. What is the purpose of the setTimeout() function in
+                JavaScript?
+              </p>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q8" value="A" checked />
+                <label class="form-check-label"
+                  >To set a timer for a function to execute after a specified
+                  time</label
+                >
+              </div>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q8" value="B" />
+                <label class="form-check-label"
+                  >To pause the execution of a function</label
+                >
+              </div>
+            </div>
+
+            <div class="my-5">
+              <p class="lead font-weight-normal">
+                9. What does the null value represent in JavaScript?
+              </p>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q9" value="A" checked />
+                <label class="form-check-label">An empty string</label>
+              </div>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q9" value="B" />
+                <label class="form-check-label"
+                  >The absence of a value or object</label
+                >
+              </div>
+            </div>
+
+            <div class="my-5">
+              <p class="lead font-weight-normal">
+                10. Which method is used to remove the last element from an
+                array in JavaScript?
+              </p>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q10" value="A" checked />
+                <label class="form-check-label">shift() </label>
+              </div>
+              <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q10" value="B" />
+                <label class="form-check-label">pop()</label>
+              </div>
+            </div>
+
+            <div class="text-center">
+              <input type="submit" class="btn btn-light" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- https://picsum.photos/1200 -->
+    <script src="app.js"></script>
+  </body>
+</html>
