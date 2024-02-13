@@ -4,6 +4,10 @@
 
 This project is a dynamic web-based quiz application built with HTML, Bootstrap, and JavaScript. It offers users a series of questions about JavaScript fundamentals, with instant feedback on their answers. This interactive quiz is designed to test and improve the user's JavaScript knowledge through a user-friendly interface and engaging question set.
 
+## Preview
+
+<img src="Preview.gif" alt="Preview GIF" style="max-width: 100%; height: auto; border: 2px solid #333;">
+
 ## Features
 
 - **Interactive Questions**: Multiple-choice questions covering various JavaScript concepts.
@@ -30,6 +34,6 @@ To take the quiz, simply:
 3. Submit your answer to see immediate feedback.
 4. Proceed through all the questions to see your final score.
 
-## Adding a GIF Preview
+## Preview
 
 <img src="Preview.gif" alt="Preview GIF" style="max-width: 100%; height: auto; border: 2px solid #333;">
